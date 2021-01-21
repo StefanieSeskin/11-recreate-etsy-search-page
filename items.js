@@ -82,7 +82,7 @@ var items = {
         "Cake Toppers"
       ],
       "used_manufacturer":false,
-      "Images":[
+    "Images":[  
         {
           "listing_image_id":1465073967,
           "hex_code":"7C6A5B",
