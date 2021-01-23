@@ -8,28 +8,38 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="search.css" />
 
     <title>Etsy Page</title>
   </head>
   <body>
-    <div id="mainpart">
-      <div id="nav-top">
-        <ol>
-          <li>Valentine's Day</li>
-          <li><a href="#">Jewelry & Accessories</a></li>
-          <li><a href="#">Clothing & Shoes</a></li>
-          <li><a href="#">Home & Living</a></li>
-          <li><a href="#">Wedding & Party</a></li>
-          <li><a href="#">Toys & Entertainment</a></li>
-          <li><a href="#">Art & Collectibles</a></li>
-          <li><a href="#">Craft Supplies</a></li>
-          <li><a href="#">Gifts & Gift Cards</a></li>
-        </ol>
-      </div>
+    <div id="search-bar">
+      <h2>Etsy</h2>
+      <form class="search">
+        <input type="text" placeholder="Search for anything" name="search" />
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+      <span class="signin">Sign in</span>
+      <span class="fa fa-cart-plus"></span>
+    </div>
 
+    <div id="nav-top">
+      <ol>
+        <li><a href="#">Valentine's Day</a></li>
+        <li><a href="#">Jewelry &amp; Accessories</a></li>
+        <li><a href="#">Clothing &amp; Shoes</a></li>
+        <li><a href="#">Home &amp; Living</a></li>
+        <li><a href="#">Wedding &amp; Party</a></li>
+        <li><a href="#">Toys &amp; Entertainment</a></li>
+        <li><a href="#">Art &amp; Collectibles</a></li>
+        <li><a href="#">Craft Supplies</a></li>
+        <li><a href="#">Gifts &amp; Gift Cards</a></li>
+      </ol>
+    </div>
+    <hr />
+    <div id="mainpart">
       <div id="grid"></div>
     </div>
-    <!-- <span class="fa fa-cart-plus"></span> -->
 
     <div id="footer">
       <ul class="footer-info">
