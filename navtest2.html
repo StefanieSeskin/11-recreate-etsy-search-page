@@ -22,7 +22,7 @@
           </form>
         <span class="signin">Sign in</span>
         <span class="fa fa-cart-plus"></span>
-      </div>
+    </div>
       
       <!-- <form class="search">
         <input type="text" placeholder="Search for anything" name="search">
@@ -30,49 +30,68 @@
       </form> -->
 
       
-<nav>
-<div id="nav-top">
+  <nav>
+    <div id="nav-top">
     <ol class = "nav-list">
       <li><a href="#">Valentine's Day</a></li>
-      <li class = "nav-label">
-        <span>Jewelery &amp; Accessories</span>
-      <div class="dropdown">
-        <ul>
+        <li class = "nav-label">
+          <span>Jewelery &amp; Accessories</span>
+            <div class="dropdown">
+              <ul>
+              <!-- <li class="dropdown-stagnant">TEST</li> -->
+              <li class="dropdown-item">
+                <span class="dropdown-item-label">Accessories</span>
+                <div class="dropdown-block">
+                  <div class="side-drop-down">
+                      <ul>
+                        <li>
+                          <h3>Hats &amp; Caps</h3>
+                          <span>Beanies &amp; Winter Hats</span><br><br>
+                          <span><h3>Hats Accessories</h3></span>
+                          <span>Headbands</span><br>
+                          <span>Fascinators &amp; Mini Hats</span><br>
+                          <span>Wreaths &amp; Tiaras</span><br><br>
+                          <span><h3>Sunglasses &amp; Eyewear</h3></span>
+                        </li>
+            
+                        <li>
+                          <h3>Scarves &amp; Wraps</h3><br>
+                          <h3>Belts &amp; Suspenders</h3><br>
+                          <h3>Keychains &amp; Lanyards</h3><br>
+                          <h3>Gloves &amp; Mittens</h3><br>
+                          <h3>Umbrellas &amp; Rains Accessories</h3><br>
+                          <strong>All Accessories &nbsp; &nbsp;<i class="fa fa-arrow-right"></i></strong><br><br> 
+                        </li>
+            
+                        <li class="image-column">
+                            <img src="https://i.etsystatic.com/10204022/c/2040/1622/427/767/il/2faa83/2380735922/il_340x270.2380735922_fcih.jpg" alt="Rings" height="210">
+                            <p>Editors' picks</p>
+                            <p><h3>Jewelry, handbags and accessories</h3></p>
+                      </div>
+                    </li>
           <li class="dropdown-item">
-            <span class="dropdown-item-label">Accessories</span>
+            <span class="dropdown-item-label">Bags &amp; Purses</span>
             <div class="dropdown-block">
-                <div class="textboxes">
+              <div class="side-drop-down">
                 <ul>
                     <li>
-                        <h3>Hats &amp; Caps</h3>
-                        <span>Beanies &amp; Winter Hats</span><br><br>
-                        <span><h3>Hats Accessories</h3></span>
-                        <span>Headbands</span><br>
-                        <span>Fascinators &amp; Mini Hats</span><br>
-                        <span>Wreaths &amp; Tiaras</span><br><br>
-                        <span><h3>Sunglasses &amp; Eyewear</h3></span>
+                        <h3>Backpacks</h3><br>
+                        <h3>Handbags</h3>
+                        <span>Clutches &amp; Evening Bags</span><br>
+                        <span>Shoulder Bags</span><br><br>
+                        <span><h3>Diaper Bags</h3></span>
                     </li>
         
                     <li>
-                        <h3>Scarves &amp; Wraps</h3><br>
-                        <h3>Belts &amp; Suspenders</h3><br>
-                        <h3>Keychains &amp; Lanyards</h3><br>
-                        <h3>Gloves &amp; Mittens</h3><br>
-                        <h3>Umbrellas &amp; Rains Accessories</h3><br>
-                        <span>All Accessories <i class="fa fa-arrow-right"></i></span><br><br> 
+                        <h3>Luggage &amp; Duffel Bags</h3><br>
+                        <h3>Phone Cases</h3><br>
+                        <strong>All Bags &amp; Purses&nbsp; &nbsp; <i class="fa fa-arrow-right"></i></strong><br><br> 
                     </li>
         
                     <li class="image-column">
                         <img src="https://i.etsystatic.com/10204022/c/2040/1622/427/767/il/2faa83/2380735922/il_340x270.2380735922_fcih.jpg" alt="Rings" height="210">
                         <p>Editors' picks</p>
                         <p><h3>Jewelry, handbags and accessories</h3></p>
-            </div>
-          </li>
-          <li class="dropdown-item">
-            <span class="dropdown-item-label">Bags &amp; Purses</span>
-            <div class="dropdown-block">
-              <h2>thing two</h2>
-              <span>hello!</span>
             </div>
           </li>
         </ul>
@@ -89,6 +108,37 @@
       <li><a href="#">Gifts &amp; Gift Cards</a></li>
     </ol>
 </nav>
+<div id="mainpart">
+  <!---------------------------------------------------------------------------->
+  <!--These are the buttons above the product grid-->
+  <div class="fa-buttons-strip">
+    <!-- seems I need javascript to make this button on click and not hover -->
+
+    <div id="dropdown-arrival">
+      <button id="dropbtn">
+        <strong>Estimate Arrival</strong> Any time
+        <i class="fa fa-caret-down"></i>
+      </button>
+    </div>
+    <div id="dropdown-arrival-content">
+      Estimate arrival Any time<i class="fa fa-caret-down"></i><br />
+      <a href="#">date radio</a><br />
+      <a href="#">date radio</a><br />
+      <a href="#">date radio</a><br />
+    </div>
+
+    <button id="filter"><i class="fa fa-sliders"></i>All Filters</button>
+    <!-- seems I need javascript to make this button on click and not hover -->
+
+    <div id="results-fave-sort">
+      <span>results, with Ads</span>
+      <i class="fa fa-question-circle"></i>
+      <i class="fa fa-heart"></i>
+      <i class="fa fa-angle-double-down"></i>
+    </div>
+    </div>
+  </div>
+  </div>
   </div>
   </body>
   </html>

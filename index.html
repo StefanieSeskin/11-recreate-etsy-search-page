@@ -38,13 +38,41 @@
     </div>
     <hr />
     <div id="mainpart">
+      <!---------------------------------------------------------------------------->
+      <!--These are the buttons above the product grid-->
+      <div class="fa-buttons-strip">
+        <!-- seems I need javascript to make this button on click and not hover -->
+
+        <div id="dropdown-arrival">
+          <button id="dropbtn">
+            <strong>Estimate Arrival</strong> Any time
+            <i class="fa fa-caret-down"></i>
+          </button>
+        </div>
+        <div id="dropdown-arrival-content">
+          Estimate arrival Any time<i class="fa fa-caret-down"></i><br />
+          <a href="#">date radio</a><br />
+          <a href="#">date radio</a><br />
+          <a href="#">date radio</a><br />
+        </div>
+
+        <button id="filter"><i class="fa fa-sliders"></i>All Filters</button>
+        <!-- seems I need javascript to make this button on click and not hover -->
+
+        <div id="results-fave-sort">
+          <span>results, with Ads</span>
+          <i class="fa fa-question-circle"></i>
+          <i class="fa fa-heart"></i>
+          <i class="fa fa-angle-double-down"></i>
+        </div>
+        </div>
+      </div>
+      </div>
+      <div id="mainpart">
+      <!---------------------------------------------------------------------------->
       <div id="grid"></div>
     </div>
-
-
-
     <div id="footer">
-
       <div class="subscribe"></div>
 
       <div class="sitemap"></div>
@@ -68,6 +96,5 @@
 
     <script src="items.js"></script>
     <script src="main.js"></script>
-    <span class="fa fa-heart"></span>
   </body>
 </html>
