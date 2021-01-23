@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="main.css" />
     <link rel="stylesheet" href="search.css" />
     <link rel="stylesheet" href="test.css" />
+    <!-- <link rel="stylesheet" href="underline.css" /> -->
     <title>Etsy Page</title>
   </head>
   <body>
@@ -35,7 +36,7 @@
     <ol class = "nav-list">
       <li><a href="#">Valentine's Day</a></li>
         <li class = "nav-label">
-          <span>Jewelery &amp; Accessories</span>
+          <a href="#" class="middle">Jewelery &amp; Accessories</a>
             <div class="dropdown">
               <ul>
               <!-- <li class="dropdown-stagnant">TEST</li> -->
@@ -108,37 +109,63 @@
       <li><a href="#">Gifts &amp; Gift Cards</a></li>
     </ol>
 </nav>
-<div id="mainpart">
-  <!---------------------------------------------------------------------------->
-  <!--These are the buttons above the product grid-->
-  <div class="fa-buttons-strip">
-    <!-- seems I need javascript to make this button on click and not hover -->
+    <div id="mainpart">
+      <!---------------------------------------------------------------------------->
+      <!--These are the buttons above the product grid-->
+      <div class="fa-buttons-strip">
+        <!-- seems I need javascript to make this button on click and not hover -->
 
-    <div id="dropdown-arrival">
-      <button id="dropbtn">
-        <strong>Estimate Arrival</strong> Any time
-        <i class="fa fa-caret-down"></i>
-      </button>
-    </div>
-    <div id="dropdown-arrival-content">
-      Estimate arrival Any time<i class="fa fa-caret-down"></i><br />
-      <a href="#">date radio</a><br />
-      <a href="#">date radio</a><br />
-      <a href="#">date radio</a><br />
-    </div>
+        <div id="dropdown-arrival">
+          <button id="dropbtn">
+            <strong>Estimate Arrival</strong> Any time
+            <i class="fa fa-caret-down"></i>
+          </button>
+        </div>
+        <div id="dropdown-arrival-content">
+          Estimate arrival Any time<i class="fa fa-caret-down"></i><br />
+          <a href="#">date radio</a><br />
+          <a href="#">date radio</a><br />
+          <a href="#">date radio</a><br />
+        </div>
 
-    <button id="filter"><i class="fa fa-sliders"></i>All Filters</button>
-    <!-- seems I need javascript to make this button on click and not hover -->
+        <button id="filter"><i class="fa fa-sliders"></i>All Filters</button>
+        <!-- seems I need javascript to make this button on click and not hover -->
 
-    <div id="results-fave-sort">
-      <span>results, with Ads</span>
-      <i class="fa fa-question-circle"></i>
-      <i class="fa fa-heart"></i>
-      <i class="fa fa-angle-double-down"></i>
-    </div>
-    </div>
-  </div>
-  </div>
-  </div>
-  </body>
-  </html>
+        <div id="results-fave-sort">
+          <span>results, with Ads</span>
+          <i class="fa fa-question-circle"></i>
+          <i class="fa fa-heart"></i>
+          <i class="fa fa-angle-double-down"></i>
+        </div>
+        </div>
+        <div id="mainpart">
+          <!---------------------------------------------------------------------------->
+          <div id="grid"></div>
+        </div>
+        <div id="footer">
+          <div class="subscribe"></div>
+    
+          <div class="sitemap"></div>
+    
+          <ul class="footer-info">
+            <li>
+              flag
+              <strong
+                >&nbsp&nbsp &nbsp United States &nbsp&nbsp | &nbsp&nbsp English
+                &nbsp&nbsp | &nbsp&nbsp $USD</strong
+              >
+            </li>
+            <li>
+              &#169;2021 Etsy, Inc. &nbsp &nbsp
+              <a class="bottom-links" href="#">Terms of Use</a> &nbsp &nbsp
+              <a class="bottom-links" href="#">Privacy</a> &nbsp &nbsp
+              <a class="bottom-links" href="#">Internet-based ads</a>
+            </li>
+          </ul>
+        </div>
+    
+        <script src="items.js"></script>
+        <script src="main.js"></script>
+      </body>
+    </html>
+    
