@@ -1,0 +1,30 @@
+.textboxes {
+  height: 410px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  /* border-left: 2px solid rgb(184, 184, 184);
+  border-bottom: 2px solid rgb(184, 184, 184);
+  border-right: 2px solid rgb(184, 184, 184); */
+  border-bottom-right-radius: 10px;
+  transition: 0.5s;
+  box-shadow: 1px 10px 20px #b1b0b0;
+}
+
+.textboxes ul {
+  width: 815px;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.image-column:hover {
+  transition: 0.5s;
+  box-shadow: 20px 10px 20px 10px #b1b0b0;
+  border-radius: 10px;
+}
+
+.image-column img {
+  border-radius: 10px;
+  margin-left: 10px;
+}

@@ -132,20 +132,15 @@ h2 {
 
 .shop-name {
   font-size: 12px;
-  /* font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: gray; */
 }
 
 .stars {
   font-size: 12px;
   color: gray;
-  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
 
 .item-price {
   font-size: 16px;
-  /* font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans",
-    "Segoe UI", "Helvetica", Arial, sans-serif; */
   font-weight: 300;
   font-weight: bold;
   color: black;
@@ -159,6 +154,16 @@ h2 {
 #footer {
   margin-top: 500px;
   /* position: absolute; */
+}
+
+.subscribe {
+  background-color: #dae5f3;
+  height: 200px;
+}
+
+.sitemap {
+  background-color: #354569;
+  height: 350px;
 }
 
 .footer-info {
@@ -213,10 +218,14 @@ nav {
   position: absolute;
   left: 30%;
   top: 0;
+  padding: 10px;
+  line-height: 2em;
 }
 
 .dropdown-item {
+  background-color: white;
   display: flex;
+  flex-direction: row;
 }
 
 .dropdown ul {
