@@ -9,55 +9,276 @@
     />
     <link rel="stylesheet" href="main.css" />
     <link rel="stylesheet" href="search.css" />
+    <!-- <link rel="stylesheet" href="test.css" /> -->
     <!-- <link rel="stylesheet" href="underline.css" /> -->
-
     <title>Etsy Page</title>
   </head>
   <body>
-    <div id="search-bar">
-      <h2>Etsy</h2>
-      <form class="search">
-        <input type="text" placeholder="Search for anything" name="search" />
-        <button type="submit"><i class="fa fa-search"></i></button>
-      </form>
-      <span class="signin">Sign in</span>
-      <span class="fa fa-cart-plus"></span>
-    </div>
 
-    <div id="nav-top">
-      <ol>
-        <li><a href="#">Valentine's Day</a></li>
-        <li><a href="#">Jewelry &amp; Accessories</a></li>
-        <li><a href="#">Clothing &amp; Shoes</a></li>
-        <li><a href="#">Home &amp; Living</a></li>
-        <li><a href="#">Wedding &amp; Party</a></li>
-        <li><a href="#">Toys &amp; Entertainment</a></li>
-        <li><a href="#">Art &amp; Collectibles</a></li>
-        <li><a href="#">Craft Supplies</a></li>
-        <li><a href="#">Gifts &amp; Gift Cards</a></li>
-      </ol>
-      <hr>
+<!------------------------SEARCH BAR------------------------------->
+    <div id="search-bar">
+        <h2>Etsy</h2>
+        <form class="search">
+            <input type="text" placeholder="Search for anything" name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+        <span class="signin">Sign in</span>
+        <span class="fa fa-cart-plus"></span>
     </div>
+<!-----------------------START NAV ADD LINKS -------------------------------->    
+      
+      <!-- <form class="search">
+        <input type="text" placeholder="Search for anything" name="search">
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </form> -->
+
+    <!--NAV-->  
+<nav>
+  <div id="nav-top">
+    <ol class = "nav-list">
+      <li><a href="#">Valentine's Day</a></li>
+        <li class = "nav-label">
+          <a href="#" class="middle">Jewelery &amp; Accessories</a>
+            <div class="dropdown">
+              <ul>
+                <li class="stagnant-dropdown-item">
+                  <strong>All Jewelry &amp; Accessories</strong>
+                  <i class="fa fa-arrow-right"></i></li>
+                <li class="dropdown-item">
+                <span class="dropdown-item-label">Accessories</span>
+                <div class="dropdown-block">
+                  <div class="side-drop-down">
+                      <ul>
+                        <li>
+                          <h3>Hats &amp; Caps</h3>
+                          <span>Beanies &amp; Winter Hats</span><br><br>
+                          <span><h3>Hats Accessories</h3></span>
+                          <span>Headbands</span><br>
+                          <span>Fascinators &amp; Mini Hats</span><br>
+                          <span>Wreaths &amp; Tiaras</span><br><br>
+                          <span><h3>Sunglasses &amp; Eyewear</h3></span>
+                        </li>
+            
+                        <li>
+                          <h3>Scarves &amp; Wraps</h3><br>
+                          <h3>Belts &amp; Suspenders</h3><br>
+                          <h3>Keychains &amp; Lanyards</h3><br>
+                          <h3>Gloves &amp; Mittens</h3><br>
+                          <h3>Umbrellas &amp; Rains Accessories</h3><br>
+                          <strong>All Accessories &nbsp; &nbsp;<i class="fa fa-arrow-right"></i></strong><br><br> 
+                        </li>
+            
+                        <li class="image-column">
+                            <img src="https://i.etsystatic.com/10204022/c/2040/1622/427/767/il/2faa83/2380735922/il_340x270.2380735922_fcih.jpg" alt="Rings" height="190">
+                            <p>Editors' picks</p>
+                            <p><h3>Jewelry, handbags and accessories</h3></p>
+                      </div>
+                    </li>
+          <li class="dropdown-item">
+            <span class="dropdown-item-label">Bags &amp; Purses</span>
+            <div class="dropdown-block">
+              <div class="side-drop-down">
+                <ul>
+                    <li>
+                        <h3>Backpacks</h3><br>
+                        <h3>Handbags</h3>
+                        <span>Clutches &amp; Evening Bags</span><br>
+                        <span>Shoulder Bags</span><br><br>
+                        <span><h3>Diaper Bags</h3></span>
+                    </li>
+        
+                    <li>
+                        <h3>Luggage &amp; Duffel Bags</h3><br>
+                        <h3>Phone Cases</h3><br>
+                        <strong>All Bags &amp; Purses&nbsp; &nbsp; <i class="fa fa-arrow-right"></i></strong><br><br> 
+                    </li>
+        
+                    <li class="image-column">
+                        <img src="https://i.etsystatic.com/10204022/c/2040/1622/427/767/il/2faa83/2380735922/il_340x270.2380735922_fcih.jpg" alt="Rings" height="190">
+                        <p>Editors' picks</p>
+                        <p><h3>Jewelry, handbags and accessories</h3></p>
+            </div>
+          </li>
+          <li class="dropdown-item">
+            <span class="dropdown-item-label">Necklaces</span>
+            <div class="dropdown-block">
+              <div class="side-drop-down">
+                <ul>
+                    <li>
+                        <h3>Pendants</h3><br>
+                        <h3>Chokers</h3><br>
+                        <h3>Charm Necklaces</h3><br>
+                        <h3>Crystal Necklaces</h3><br>
+                        <h3>Charm Necklaces</h3><br>
+                        <h3>Monogram &amp; Name Necklaces</h3><br>
+                        <h3>Beaded Necklaces</h3><br>
+                    </li>
+        
+                    <li>
+                        <h3>Chains</h3><br>
+                        <h3>Bib Necklaces</h3><br>
+                        <h3>Tassel Necklaces</h3><br>
+                        <strong>All Necklaces&nbsp; &nbsp; <i class="fa fa-arrow-right"></i></strong><br><br> 
+                    </li>
+        
+                    <li class="image-column">
+                        <img src="https://i.etsystatic.com/10204022/c/2040/1622/427/767/il/2faa83/2380735922/il_340x270.2380735922_fcih.jpg" alt="Rings" height="190">
+                        <p>Editors' picks</p>
+                        <p><h3>Jewelry, handbags and accessories</h3></p>
+            </div>
+          </li>
+          <li class="dropdown-item">
+            <span class="dropdown-item-label">Rings</span>
+            <div class="dropdown-block">
+              <div class="side-drop-down">
+                <ul>
+                    <li>
+                        <h3>Stackable Rings</h3><br>
+                        <h3>Statement Rings</h3><br>
+                        <h3>Bands</h3><br>
+                        <h3>Signet Rings</h3><br>
+                        <h3>Multistone-Rings</h3><br>
+                        <h3>Solitaire Rings</h3><br>
+                        <h3>Midi Rings</h3>
+                    </li>
+        
+                    <li>
+                        <h3>Wedding &amp; Engagement</h3>
+                        <span>Engagement Rings</span><br>
+                        <span>Wedding Bands</span><br>
+                        <span>Promise Rings</span><br>
+                        <span>Bridal Sets</span><br><br>
+                        <strong>All Rings&nbsp; &nbsp; <i class="fa fa-arrow-right"></i></strong><br><br> 
+                    </li>
+        
+                    <li class="image-column">
+                        <img src="https://i.etsystatic.com/10204022/c/2040/1622/427/767/il/2faa83/2380735922/il_340x270.2380735922_fcih.jpg" alt="Rings" height="190">
+                        <p>Editors' picks</p>
+                        <p><h3>Jewelry, handbags and accessories</h3></p>
+            </div>
+          </li>
+          <li class="dropdown-item">
+            <span class="dropdown-item-label">Earrings</span>
+            <div class="dropdown-block">
+              <div class="side-drop-down">
+                <ul>
+                    <li>
+                        <h3>Dangle Drop Earrings</h3><br>
+                        <h3>Stud Earrings</h3><br>
+                        <h3>Hoop Earrings</h3><br>
+                        <h3>Chandelier Earrings</h3><br>
+                        <h3>Ear Jackets &amp; Climbers</h3><br>
+                    </li>
+        
+                    <li>
+                        <h3>Cluster Earrings</h3><br>
+                        <h3>Cuff &amp; Wrap Earrings</h3><br>
+                        <h3>Clip-On Earrings</h3><br>
+                        <strong>All Earrings&nbsp; &nbsp; <i class="fa fa-arrow-right"></i></strong><br><br> 
+                    </li>
+        
+                    <li class="image-column">
+                        <img src="https://i.etsystatic.com/10204022/c/2040/1622/427/767/il/2faa83/2380735922/il_340x270.2380735922_fcih.jpg" alt="Rings" height="190">
+                        <p>Editors' picks</p>
+                        <p><h3>Jewelry, handbags and accessories</h3></p>
+            </div>
+          </li>
+          <li class="dropdown-item">
+            <span class="dropdown-item-label">Bracelets</span>
+            <div class="dropdown-block">
+              <div class="side-drop-down">
+                <ul>
+                    <li>
+                        <h3>Beaded Bracelets</h3><br>
+                        <h3>Bangles</h3><br>
+                        <h3>Charm Bracelets</h3><br>
+                        <h3>Woven &amp; Braided Bracelets</h3><br>
+        
+                    </li>
+        
+                    <li>
+                        <h3>Cuff Bracelets</h3><br>
+                        <h3>Chain &amp; Link Bracelets</h3><br>
+                        <strong>All Bracelets&nbsp; &nbsp; <i class="fa fa-arrow-right"></i></strong><br><br> 
+                    </li>
+        
+                    <li class="image-column">
+                        <img src="https://i.etsystatic.com/10204022/c/2040/1622/427/767/il/2faa83/2380735922/il_340x270.2380735922_fcih.jpg" alt="Rings" height="190">
+                        <p>Editors' picks</p>
+                        <p><h3>Jewelry, handbags and accessories</h3></p>
+            </div>
+          </li>
+          <li class="dropdown-item">
+            <span class="dropdown-item-label">Body Jewelry</span>
+            <div class="dropdown-block">
+              <div class="side-drop-down">
+                <ul>
+                    <li>
+                        <h3>Anklets</h3><br>
+                        <h3>Hair Jewelry</h3><br>
+                        <h3>Nose Rings &amp; Studs</h3><br>
+                        <h3>Arm Bands</h3><br>
+                        <h3>Nipple Jewelry</h3><br>
+                        <h3>Belly Rings</h3>
+                    </li>
+        
+                    <li>
+                        <h3>Shoulder Jewelry</h3><br>
+                        <h3>Toe Rings</h3><br>
+                        <h3>Lip Rings</h3><br>
+                        <strong>All Body Jewelry&nbsp; &nbsp; <i class="fa fa-arrow-right"></i></strong><br><br> 
+                    </li>
+        
+                    <li class="image-column">
+                        <img src="https://i.etsystatic.com/10204022/c/2040/1622/427/767/il/2faa83/2380735922/il_340x270.2380735922_fcih.jpg" alt="Rings" height="190">
+                        <p>Editors' picks</p>
+                        <p><h3>Jewelry, handbags and accessories</h3></p>
+            </div>
+          </li>
+          <li class="stagnant-dropdown-item">
+            <br><strong>All Jewelry</strong>
+            <i class="fa fa-arrow-right"></i></li>
+          </li>
+        </ul>
+      </div>
+    </li>
+
+    </li>   
+      <li><a href="#">Clothing &amp; Shoes</a></li>
+      <li><a href="#">Home &amp; Living</a></li>
+      <li><a href="#">Wedding &amp; Party</a></li>
+      <li><a href="#">Toys &amp; Entertainment</a></li>
+      <li><a href="#">Art &amp; Collectibles</a></li>
+      <li><a href="#">Craft Supplies</a></li>
+      <li><a href="#">Gifts &amp; Gift Cards</a></li>
+    </ol>
+
+</nav>
+
+<!--END NAV-->
+
     <div id="mainpart">
-      <!---------------------------------------------------------------------------->
-      <!--These are the buttons above the product grid-->
+<!----------These are the buttons above the product grid---------------->
       <div class="fa-buttons-strip">
         <!-- seems I need javascript to make this button on click and not hover -->
 
         <div id="dropdown-arrival">
           <button id="dropbtn">
             <strong>Estimate Arrival</strong> Any time
+            <span class="wt-badge wt-badge--notification-01 wt-badge--outset-top-right wt-badge--
+            small wt-animated wt-animated--appear-01">New</span>
+            <!-- polygon points="16.5 10 12 16 7.5 10 16.5 10" -->
             <i class="fa fa-caret-down"></i>
           </button>
         </div>
-        <!-- <div id="dropdown-arrival-content">
+        <div id="dropdown-arrival-content">
           Estimate arrival Any time<i class="fa fa-caret-down"></i><br />
           <a href="#">date radio</a><br />
           <a href="#">date radio</a><br />
           <a href="#">date radio</a><br />
-        </div> -->
+        </div>
 
-        <button id="filter"><i class="fa fa-sliders"></i>&nbsp;&nbsp;All Filters</button>
+        <button id="filter"><i class="fa fa-sliders"></i>All Filters</button>
         <!-- seems I need javascript to make this button on click and not hover -->
 
         <div id="results-fave-sort">
@@ -67,15 +288,15 @@
           <i class="fa fa-angle-double-down"></i>
         </div>
       </div>
-
-      <div id="mainpart">
-      <!---------------------------------------------------------------------------->
+  <div id="mainpart">
+ <!--------------------------PRODUCT GRID BELOW----------------------------->
       <div id="grid"></div>
     </div>
     </div>
   </div>
-    <p class="underproduct-text">There's so much more for you to discover</p>
-<!--------------------------------------------->
+    <p><h4>There's so much more for you to discover</h4></p>
+
+<!------- SCROLL TO NEXT PAGE BUTTONS BELOW: ADD FUNCTIONALITY ------------->
 
     <div id="page-scroll">
       <button id="next-page"><i class="fa fa-arrow-left"></i></button>
@@ -90,20 +311,70 @@
       <button id="next-page">...</button>
       <button id="next-page"><i class="fa fa-arrow-right"></i></button>
     </div>
-<!--------------------------------------------->
+    <hr>
+<!------------SUBCRIBE SECTION BELOW ADD FUNCTIONALITY----------->
 
     <div id="footer">
-      <div class="subscribe"></div>
+      <div class="subscribe">
+        <span id="subscribe-text"><h4>Yes! Send me exclusive offers, unique gift ideas, 
+          and personalized tips for shopping and selling on Etsy.</h4></span>
+            <form class="subscribe-bar">
+              <input type="text" placeholder="Enter your email" name="enter-email">
+              <button type="button" id="subscribe-button">Subscribe</i></button>
+            </form>
+      </div>
 
-      <div class="sitemap"></div>
 
+<!--------------------SITE MAP BELOW ADD LINKS-------------------->
+
+      <div class="sitemap">
+        <ul class="sitemap-column">
+          <li><h3>Shop</h3></li>
+          <li>Gift Cards</li>
+        </ul>
+        <ul class="sitemap-column">                     
+          <li><h3>Sell</h3></li>
+          <li>Sell on Etsy</li>
+            <li>Teams</li>
+            <li>Forums</li>
+            <li>Affiliates</li>
+        </ul>
+        <ul class="sitemap-column">    
+          <li><h3>About</h3></li>
+          <li>Etsy, Inc.</li>
+          <li>Policies</li>
+          <li>Investors</li>
+          <li>Careers</li>
+          <li>Press</li>
+          <li>Impact</li>
+        </ul>
+        <ul>
+          <li><h3>Help</h3></li>
+          <li>Help Center</li>
+          <li>Trust and safety</li>
+          <li>Privacy settings</li>
+          <li></li>
+          <li></li>
+          <button class="etsy-bottom">
+          <li><i class="fa fa-etsy fa-1x"></i>&nbsp;&nbsp;Download the Etsy App</button></li>
+          <li></li>
+          <li><i class="fa fa-instagram fa-2x"></i></i>&nbsp;&nbsp;&nbsp;&nbsp;
+          <i class="fa fa-facebook-square fa-2x"></i></i>&nbsp;&nbsp;&nbsp;&nbsp;
+          <i class="fa fa-pinterest fa-2x"></i>	</i>&nbsp;&nbsp;&nbsp;&nbsp;
+          <i class="fa fa-twitter fa-2x"></i> 	</i>&nbsp;&nbsp;&nbsp;&nbsp;
+          <i class="fa fa-youtube fa-2x"></i></li
+        </ul>
+      </div>
+    </div>
+
+    <!-----------------------BOTTOM FOOTER  BELOW-->
+    
       <ul class="footer-info">
         <li>
           flag
           <strong
             >&nbsp&nbsp &nbsp United States &nbsp&nbsp | &nbsp&nbsp English
-            &nbsp&nbsp | &nbsp&nbsp $USD</strong
-          >
+            &nbsp&nbsp | &nbsp&nbsp $USD</strong>
         </li>
         <li>
           &#169;2021 Etsy, Inc. &nbsp &nbsp

@@ -1,8 +1,7 @@
 form.search input[type="text"] {
   padding: 13.5px;
   font-size: 17px;
-  /* float: left; */
-  width: 1000px;
+  width: 1040px;
   background: rgb(234, 233, 233);
   border-top-left-radius: 100px;
   border-top: 1px solid black;
@@ -16,9 +15,13 @@ form.search input[type="text"] {
   position: relative;
 }
 
+input:focus {
+  outline: none;
+}
+
 form.search button {
   float: left;
-  width: 100px;
+  width: 60px;
   padding: 12px;
   background: rgb(234, 233, 233);
   color: black;
@@ -33,6 +36,68 @@ form.search button {
   border-right: 1px solid black;
   position: absolute;
 }
-input:focus {
+
+form.search button:hover {
+  background-color: #d1cfcf;
+}
+
+form.search button:active {
+  color: black;
+}
+
+button:focus {
+  outline: none;
+}
+
+form.subscribe-bar input[type="text"] {
+  padding: 13.5px;
+  font-size: 17px;
+  width: 500px;
+  background: white;
+  border-top-left-radius: 100px;
+  border-top: 1px solid black;
+  border-bottom-left-radius: 100px;
+  border-left: 1px solid black;
+  border-top-right-radius: 0px;
+  border-right: none;
+  border-top: 1px solid black;
+  border-bottom-right-radius: 0px;
+  border-bottom: 1px solid black;
+  position: relative;
+}
+
+.subscribe-bar {
+  margin-right: 100px;
+}
+
+form.subscribe-bar button {
+  width: 120px;
+  padding: 13px;
+  background: white;
+  color: black;
+  font-size: 18px;
+  border-top-left-radius: 0px;
+  border-left: 0px;
+  border-top: 1px solid black;
+  border-bottom-left-radius: 0px;
+  border-bottom: 1px solid black;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border-right: 1px solid black;
+  position: absolute;
+}
+#subscribe-button {
+  margin-left: 450px;
+}
+
+form.subscribe-bar button:hover {
+  background-color: #d1cfcf;
+}
+
+form.subscribe-bar button:active {
+  color: black;
+}
+
+.subscribe-bar.button:focus {
   outline: none;
 }
