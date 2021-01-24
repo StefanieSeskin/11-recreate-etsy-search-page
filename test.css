@@ -1,6 +1,6 @@
 .side-drop-down {
   height: 410px;
-  position: absolute;
+  position: relative;
   /* display: flex;
   flex-direction: column; */
   /* border-left: 2px solid rgb(184, 184, 184);
@@ -13,6 +13,7 @@
 }
 
 .side-drop-down ul {
+  position: absolute;
   width: 815px;
   display: flex;
   justify-content: space-between;
